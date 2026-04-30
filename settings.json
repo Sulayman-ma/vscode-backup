@@ -1,0 +1,105 @@
+{
+  // BACKGROUND EXTENSION SETTINGS
+  "background.editor": {
+    "style": {
+      "background-position": "100% 100%",
+      "background-size": "contain",
+      "opacity": 0.4,
+      "right": 0,
+      "bottom": 0,
+      "width": "40%",
+      "height": "40%"
+    },
+    "images": [
+      "https:///user-images.githubusercontent.com/18376480/55394572-30827700-5572-11e9-9435-2cc501eb53bb.png",
+      "https://www.pngarts.com/files/3/Pokemon-Transparent-Background-PNG.png",
+      "https://www.pngarts.com/files/3/Pokemon-Pikachu-PNG-Background-Image.png"
+    ],
+    "interval": 60
+  },
+
+  // OTHER SETTINGS
+  "editor.wordWrap": "on",
+  "files.autoSaveDelay": 50,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "extensions.autoUpdate": false,
+  "update.mode": "manual",
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "editor.fontFamily": "'Consolas', 'Courier New', monospace",
+  "editor.stickyScroll.enabled": true,
+  "workbench.tree.enableStickyScroll": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmPasteNative": false,
+  "git.openRepositoryInParentFolders": "never",
+  "python.REPL.enableREPLSmartSend": false,
+  "editor.wordWrapColumn": 79,
+  "workbench.settings.applyToAllProfiles": [],
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "files.autoSave": "afterDelay",
+  "remote.SSH.remotePlatform": {
+    "DIFS_Hetzner": "linux",
+    "beinventory": "linux",
+    "faulty-beinv": "linux",
+    "hospohun": "linux"
+  },
+  "background.enabled": true,
+  "chat.agent.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "chat.checkpoints.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "chat.extensionTools.enabled": false,
+
+  // Indent settings per file type
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "chat.disableAIFeatures": true,
+  "python.defaultInterpreterPath": "/bin/python",
+  "claudeCode.preferredLocation": "panel"
+
+  // Terminal configurations
+  // "terminal.integrated.profiles.linux": {
+  //     "bash": {
+  //         "path": "bash"
+  //     },
+  //     "zsh": {
+  //         "path": "zsh"
+  //     },
+  //     "kitty": {
+  //         "path": "/usr/bin/kitty",
+  //     }
+  // },
+  // "terminal.integrated.defaultProfile.linux": "kitty",
+}
